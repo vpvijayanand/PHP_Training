@@ -1,6 +1,12 @@
 <?php
 // Indexed Array
 $fruits = array("Apple", "Banana", "Orange");
+$count_fruits = count($fruits);
+for ($i = 0; $i < $count_fruits; $i++) {
+    echo " ". $fruits[$i] ." ";
+    echo $i;
+}
+    
 echo "Fruits: ";
 foreach ($fruits as $fruit) {
     echo $fruit . " ";

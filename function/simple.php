@@ -5,4 +5,5 @@ function add($num1, $num2) {
 }
 
 $result = add(5, 10); // $result is 15
+echo $result;
 ?>
