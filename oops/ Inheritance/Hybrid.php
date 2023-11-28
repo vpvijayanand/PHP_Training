@@ -1,3 +1,5 @@
+//In PHP, traits can be used to simulate multiple inheritance. Traits are a mechanism for code reuse in single inheritance languages like PHP.
+<?php
 trait EngineTrait {
     public function startEngine() {
         echo "Engine started";
@@ -15,3 +17,4 @@ class Car extends Vehicle {
 
 $myCar = new Car();
 $myCar->startEngine(); // Using trait method
+?>
